@@ -1,0 +1,15 @@
+{
+  "name": "mvv",
+  "version": "1.0.0",
+  "description": "![TECHFUND](https://techfund.jp/assets/image/logo_tech.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "marp mvv.md -o mvv.pdf"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.0.0"
+  }
+}
